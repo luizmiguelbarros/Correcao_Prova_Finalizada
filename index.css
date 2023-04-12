@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #570f16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+nav ul li {
+
+    font-size: 10px;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    display: flex;
+}
+
+nav ul li:not(:nth-last-child(1)) {
+    border-right: 1px solid white;
+}
+
+header {
+    background-image: url('https://portaldocastelo.com.br/wp-content/uploads/2023/04/FotoGrid_20230409_190831516-scaled.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    background-color: #500c13;
+
+}
+
+section#texto{
+    width: 50%;
+    padding: 20px;
+}
+
+section#texto h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+section#texto p {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin-bottom: 10px;
+
+}
+
+
+/* eu sei que o erro está aqui embaixo, mas não sei o que é */
+.direita {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+figure {
+    width: 50%;
+    float: right;
+    border: 3px;
+    margin: 3px;
+}
+
+img {
+    width: 400px;
+    height: 450px;
+}
+
+.legenda {
+    text-align: center;
+    margin: 0%;
+    background-color: #fdfdfd;
+    font-size: 21px;
+    width: 90%;
+    color: rgb(92, 12, 12);
+}
+
+footer {
+    background-color: #ffffff;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    
+}
+
+/*Então professor, eu tentei realmente por quase 3h resolver, mas eu não consegui
+colocar as imagens uma do lado da outra :( mas eu realmente tentei, tirei dúvida com
+alguns colegas de classe e mesmo assim não resolveu, na próxima aula, o senhor pode
+me ajudar?*/
